@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktool_set=self.webpackChunktool_set||[]).push([[7],{8498:(e,s,t)=>{t.r(s),t.d(s,{default:()=>c});var n=t(2360);const r={class:"index"},u={},c=(0,t(894).A)(u,[["render",function(e,s){return(0,n.uX)(),(0,n.CE)("div",r,"oilPrice")}]])}}]);
