@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "cross-env RUN_ENV=dev PUBLIC_PATH=/ webpack serve --config ./build/webpack.dev.config.js --progress",
     "build": "cross-env RUN_ENV=prd PUBLIC_PATH=/ webpack --config ./build/webpack.build.config.js --progress",
+    "build-gh-page": "cross-env RUN_ENV=prd PUBLIC_PATH=/toolSet/ webpack --config ./build/webpack.build.config.js --progress",
     "lint": "stylelint \"**/*.{css,less,sass,vue}\" --fix",
     "prettier": "prettier --write .",
     "test": "pnpm exec lint-staged",
